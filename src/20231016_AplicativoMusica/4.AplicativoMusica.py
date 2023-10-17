@@ -78,8 +78,8 @@ scrollbar.config(command=lista_musicas.yview)
 # Cria botões/comandos estilizados para carregar, tocar, parar, avançar e voltar músicas.
 
 # Comandos dos botões
-botao_carregar = ttk.Button(janela, text="Carregar Música", command=carregar_musica) # Comando carregar música individualmente
-botao_carregar_todas = ttk.Button(janela, text="Carregar Todas as Músicas", command=carregar_todas_musicas) # Comando carregar todas as músicas
+botao_carregar = ttk.Button(janela, text="Carregar Música", command=carregar_musica) # Comando carregar uma música 
+botao_carregar_todas = ttk.Button(janela, text="Carregar Todas as Músicas", command=carregar_todas_musicas) # Carregar todas as músicas
 botao_tocar = ttk.Button(janela, text="Tocar Música", command=tocar_musica)
 botao_parar = ttk.Button(janela, text="Parar Música", command=parar_musica)
 botao_avancar = ttk.Button(janela, text="Avançar", command=proxima_musica)

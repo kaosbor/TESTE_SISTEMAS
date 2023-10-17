@@ -82,7 +82,6 @@ botao_parar = ttk.Button(janela, text="Parar Música", command=parar_musica) # C
 botao_avancar = ttk.Button(janela, text="Avançar", command=proxima_musica) # Comando avancar música
 botao_voltar = ttk.Button(janela, text="Voltar", command=musica_anterior) # Comando voltar música
 
-
 # Criando os botões de comando 
 botao_carregar.pack(padx=10, pady=10) 
 botao_tocar.pack(padx=10, pady=10)
