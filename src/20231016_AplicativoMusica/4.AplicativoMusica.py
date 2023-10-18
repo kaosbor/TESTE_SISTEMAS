@@ -93,12 +93,12 @@ botao_parar.pack(padx=10, pady=10)
 botao_avancar.pack(padx=10, pady=10)
 botao_voltar.pack(padx=10, pady=10)
 
-# Estiliza os botões.
+# Estiliza os botões com o interior em vermelho para o estado ativo.
 estilo = ttk.Style()
 estilo.configure("TButton", foreground="blue", background="white", font=("Helvetica", 12))
 estilo.map("TButton",
           foreground=[("pressed", "red"), ("active", "blue")],
-          background=[("pressed", "!disabled", "black"), ("active", "white")]
+          background=[("pressed", "yellow"), ("active", "lightblue")]
           )
 
 # Inicia o loop principal do Pygame.
